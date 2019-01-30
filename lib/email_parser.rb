@@ -14,6 +14,4 @@ class EmailParser
     email_array.reject! {|item| item.empty?}
     email_array
   end
-
-
 end
